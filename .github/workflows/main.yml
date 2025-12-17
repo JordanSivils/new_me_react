@@ -2,11 +2,15 @@ name: CI Moore React
 
 on: 
   push: 
-    branches: 
-      -main
+    paths-ignore: 
+      - ".github/workflows/**"
+      - "README.md"
+      - "docs/**"
   pull_request:
-    branches:
-      -main
+    paths-ignore:
+      - ".github/workflows/**"
+      - "README.md"
+      - "docs/**"
 
 jobs: 
   build:
