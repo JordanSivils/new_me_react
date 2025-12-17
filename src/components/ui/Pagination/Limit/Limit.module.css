@@ -1,0 +1,12 @@
+.limitContainer {
+    text-align: end;
+}
+
+.limitContainer select {
+    width: 50px;
+    background-color: var(--accent-dark);
+    color: var(--prim-font-color);
+    border-radius: 6px;
+    padding: 4px;
+    cursor: pointer;
+}

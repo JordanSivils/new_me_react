@@ -1,0 +1,19 @@
+.input {
+    border: none;
+    height: 30px;
+    width: 300px;
+    border-radius: 6px;
+    padding: 6px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.inputContainer {
+    gap: 4px
+}

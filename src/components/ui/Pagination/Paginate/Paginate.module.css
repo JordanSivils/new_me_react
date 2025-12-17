@@ -1,0 +1,18 @@
+.paginationContainer {
+    gap: 6px;
+}
+
+.paginationContainer button {
+    background-color: var(--prim-orange);
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    color: var(--accent-dark);
+    padding: 2px 10px;
+}
+
+.paginationContainer button:disabled {
+    color: black;
+    background-color: gray;
+    cursor: not-allowed;
+}

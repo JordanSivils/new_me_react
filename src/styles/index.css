@@ -1,0 +1,51 @@
+@import "./variables.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--prim-font-fam);
+}
+
+body {
+    font-family: var(--prim-font-fam);
+    color: var(--prim-font-color);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-auto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.body-container {
+    width: 100%;
+}

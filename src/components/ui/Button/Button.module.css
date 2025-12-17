@@ -1,0 +1,134 @@
+.createFill {
+    color: var(--accent-dark);
+    background-color: rgb(48, 209, 88);
+    border: none;
+    border-radius: 6px;
+    padding: 2px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 6px;
+    transition: filter 0.3s ease;
+}
+
+.createFill:hover {
+    filter: brightness(1.2);
+}
+
+.selectBtn {
+    background: none;
+    width: 10%;
+    border: none;
+    height: 20px;
+}
+
+.detail {
+    background: none;
+    border: none;
+    color: var(--prim-orange);
+    cursor: pointer;
+    transition: filter 0.2s ease;
+}
+
+.detail:hover{
+    text-decoration: underline;
+    filter: brightness(0.7)
+}
+
+.clear {
+    background: none;
+    border: none;
+    color: var(--red);
+    cursor: pointer;
+    transition: filter 0.2s ease;
+}
+.clear:hover {
+    text-decoration: underline;
+    filter: brightness(0.7)
+}
+
+.create {
+    background: none;
+    border: none;
+    color: var(--prim-green);
+    cursor: pointer;
+    transition: filter 0.2s ease;
+}
+.create:hover {
+    text-decoration: underline;
+    filter: brightness(0.7)
+}
+
+.cancelFill {
+    color: var(--accent-dark);
+    background-color: var(--red);
+    border: none;
+    border-radius: 6px;
+    padding: 2px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.cancelFill:hover {
+    background-color: rgb(255, 104, 104);
+}
+
+.sidebarBtn {
+    background: none;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 6px;
+    color: var(--prim-font-color);
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.sidebarBtn:hover {
+    background-color: var(--prim-green);
+    color: var(--accent-dark);
+}
+
+.disabled {
+    color: var(--accent-dark);
+    background-color: rgb(94, 94, 94);
+    border: none;
+    border-radius: 6px;
+    padding: 2px 10px;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.edit {
+    background: none;
+    border: none;
+    color: var(--prim-blue);
+    cursor: pointer;
+    transition: filter 0.2s ease;
+}
+.edit:hover {
+    text-decoration: underline;
+    filter: brightness(0.7)
+}
+
+.txtSm {
+    font-size: 13px;
+}
+
+.editFill {
+    color: var(--prim-font-color);
+    background-color: var(--prim-blue);
+    border: none;
+    border-radius: 6px;
+    padding: 2px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 6px;
+    transition: filter 0.3s ease;
+}
+
+.editFill:hover {
+    filter: brightness(1.2);
+}

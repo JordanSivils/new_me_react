@@ -1,0 +1,33 @@
+.table {
+    width: 100%;
+    border-radius: 6px;
+    border-collapse: collapse;
+}
+
+.tableHead {
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+.tableDataRow:nth-child(even) {
+    background-color: rgb(25, 25, 25);
+}
+
+.tableHead .headIdentifier, 
+.tableBody .colData {
+    text-align: start;
+    bottom: 1px solid white;
+    padding: 2px;
+    border: 1px solid rgb(80, 80, 80);
+}
+
+.colData {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 200px;
+    padding: 4px;
+    border: 1px solid rgb(80, 80, 80);
+}
+
+.sortGroup {
+    justify-content: space-between;
+} 

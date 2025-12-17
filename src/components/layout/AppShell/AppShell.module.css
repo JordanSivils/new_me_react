@@ -1,0 +1,49 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: 30px auto 30px;
+  grid-template-columns: 150px 1fr;
+  grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer"
+  ;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  grid-area: header;
+  border-bottom: 1px solid rgb(10, 10, 10)
+}
+
+.sidebar {
+  grid-area: aside;
+  border-right: 1px solid rgb(10, 10, 10);
+}
+
+.body {
+  grid-area: main;
+  background-color: #161618;
+  overflow: hidden;    /* let main scroll if content is bigger */
+  min-width: 0;      /* prevent horizontal overflow clipping */
+  min-height: 0;
+}
+
+.footer {
+  grid-area: footer;
+  border-top: 1px solid rgb(10, 10, 10);
+}
+
+.bodyContainer {
+    height: 100%;
+    overflow-y: scroll;   
+    min-height: 0;
+    width: 100%;
+    padding: 8px;
+}

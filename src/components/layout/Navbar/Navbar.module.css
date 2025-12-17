@@ -1,0 +1,23 @@
+.navContainer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-dark);
+    height: 100%;
+}
+.homeHeader {
+    background: none;
+    border: none;
+}
+
+.title {
+    font-size: 16px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: var(--prim-font-color);
+    text-decoration: none;
+}
+.title:hover {
+    transition: 200ms ease;
+    text-decoration: underline;
+}

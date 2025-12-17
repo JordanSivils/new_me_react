@@ -1,0 +1,66 @@
+.inputContainer {
+    position: relative;
+}
+
+.textInputContainer {
+    width: 100%;
+    height: 26px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 6px;
+}
+
+.chevron {
+    color: var(--prim-font-color);
+    width: 100%;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.chevronOpen {
+    transform: rotate(180deg);
+}
+
+.input {
+    color: var(--prim-font-color);
+    width: 90%;
+    height: 20px;
+    border: none;
+    padding: 4px;
+    background: none;
+}
+.input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.listOpen {
+    margin-top: 4px;
+    padding: 6px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    background-color: var(--accent-dark);
+    border-radius: 6px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: 999;
+}
+
+.listRow {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    gap: 2px;
+    padding: 2px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.listRow:nth-child(odd) {
+    background-color: #27272b;
+}
+
+.listRow:hover {
+    background-color: #3f3f46;
+}

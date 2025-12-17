@@ -1,0 +1,36 @@
+.formContainer {
+    min-width: 400px;
+    gap: 6px;
+    padding: 10px 40px;
+}
+
+.form {
+    gap: 20px;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+.selectContainer {
+    width: 100%;
+}
+
+.btnGroup {
+    justify-content: space-between;
+}
+
+.inputGroup {
+    gap: 6px
+}
+
+.resetGroup {
+    gap: 6px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.resetGroup > div:first-child {
+  flex: 8; 
+}
+.resetGroup > div:last-child {
+  flex: 1;
+}

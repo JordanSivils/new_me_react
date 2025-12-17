@@ -1,0 +1,27 @@
+.gridCard {
+    gap: 10px;
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 6px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--accent-dark);
+    min-height: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.gridCard:hover {
+    background-color: var(--color-bg);
+}
+
+.gridCard img {
+    height: 80px;
+    width: 80px;
+    color: aliceblue;
+}
+
+.gridCard p {
+    color: var(--prim-font-color);
+    text-decoration: none;
+}

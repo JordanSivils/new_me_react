@@ -1,0 +1,16 @@
+:root {
+    --color-bg: #161618;
+    --accent-dark: #212124;
+
+    --prim-green: rgb(48, 209, 88);
+    --prim-orange: rgb(255, 135, 49);
+    --prim-blue: #0077ff;
+    
+    --damp-green: #00bb00;
+
+    --red: rgb(255, 45, 45);
+    --red-hover: rgb(247, 0, 0);
+
+    --prim-font-fam: Arial;
+    --prim-font-color: #ffffff;
+}

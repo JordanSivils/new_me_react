@@ -1,0 +1,31 @@
+.detailsContainer {
+    min-width: 400px;
+    gap: 6px;
+    padding: 10px 40px;
+}
+
+.detailsGroup {
+    
+    max-width: 400px;
+    gap: 8px
+}
+
+.labelAndDetail {
+    border-bottom: 1px solid gray;
+    width: 100%;
+    gap: 4px
+}
+
+.labelAndDetail h5 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btnGroup {
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.renderTextArea {
+    white-space: pre-wrap;
+}

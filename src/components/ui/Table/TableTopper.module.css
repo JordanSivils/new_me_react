@@ -1,0 +1,13 @@
+.topperContainer {
+    justify-content: space-between;
+    margin-right: 24px;
+    margin-bottom: 12px;
+}
+
+.topperContainer h3 {
+    font-size: 24px;
+}
+
+.start, .end {
+    gap: 12px
+}

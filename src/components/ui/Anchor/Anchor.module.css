@@ -1,0 +1,16 @@
+.sidebarA {
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 6px;
+    color: var(--prim-font-color);
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.sidebarA:hover {
+    background-color: var(--prim-green);
+    color: var(--accent-dark);
+}
+
+.slim {
+    font-size: 12px;
+}

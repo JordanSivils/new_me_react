@@ -1,0 +1,16 @@
+.sidebarContainer {
+    height: 100%;
+    background-color: #212124;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sidebarItemContainer {
+    gap: 10px;
+}
+
+.sidebarId {
+    color: var(--prim-orange);
+}
