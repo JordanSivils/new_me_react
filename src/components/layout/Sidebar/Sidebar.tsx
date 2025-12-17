@@ -1,6 +1,6 @@
 import { SignedIn, UserButton } from "@clerk/react-router"
 import styles from "./Sidebar.module.css"
-import anchorStyles from "../../UI/anchor/Anchor.module.css"
+import anchorStyles from "../../UI/Anchor/Anchor.module.css"
 import RequireRole from "../../../app/permissions/RequireRole"
 import Anchor from "../../ui/Anchor/Anchor"
 import { useState } from "react"
@@ -18,7 +18,6 @@ const Sidebar = () => {
             <ul className={styles.sidebarItemContainer}><p className={styles.sidebarId}>Main Nav</p>
                 <li className={styles.sidebarItem}><Anchor className={anchorStyles.sidebarA} href={`/home`} children="Home" /></li>
                 <li className={styles.sidebarItem}><Anchor href="/products" className={`${anchorStyles.sidebarA}`} children="Products" /></li>
-                {/* <li className={styles.sidebarItem}><Anchor href="/special-orders" className={`${anchorStyles.sidebarA} ${anchorStyles.slim}`} children="Special Orders" /></li> */}
                 <li className={styles.sidebarItem}><Anchor href="/suppliers" className={`${anchorStyles.sidebarA}`} children="Suppliers" /></li>
                 <li className={styles.sidebarItem}><Anchor href="/employees" className={`${anchorStyles.sidebarA}`} children="Employees" /></li>
             </ul>
