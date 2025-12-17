@@ -2,11 +2,11 @@ name: CI Moore React
 
 on: 
   push: 
-    branches: 
-      -main
+    branches-ignore: 
+      - workflows
   pull_request:
-    branches:
-      -main
+    branches-ignore:
+      - workflows
 
 jobs: 
   build:
