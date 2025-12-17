@@ -1,6 +1,6 @@
 import { SignedIn, UserButton } from "@clerk/react-router"
 import styles from "./Sidebar.module.css"
-import anchorStyles from "../../UI/Anchor/Anchor.module.css"
+import anchorStyles from "../../ui/Anchor/Anchor.module.css"
 import RequireRole from "../../../app/permissions/RequireRole"
 import Anchor from "../../ui/Anchor/Anchor"
 import { useState } from "react"
@@ -12,7 +12,6 @@ import FileUploadForm from "../../FileUpload/FileUploadForm"
 const Sidebar = () => {
     const [inventoryPortalOpen, setinventoryPortalOpen] = useState(false);
     const [productsUploadOpen, setProductsUploadOpen] = useState(false);
-
     return (
         <div className={styles.sidebarContainer}>
             <ul className={styles.sidebarItemContainer}><p className={styles.sidebarId}>Main Nav</p>
